@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Harshita</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Harshita</span></h1>
+        <p>Web Developer | Creative Designer</p>
+        <button onclick="scrollToSection('projects')">View Projects</button>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web development student skilled in HTML, CSS, and JavaScript.
+        I love building interactive and user-friendly web applications.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section dark">
+    <h2>Projects</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>Responsive navigation with scroll effects.</p>
+        </div>
+
+        <div class="card">
+            <h3>Stopwatch</h3>
+            <p>Time tracking web app with lap feature.</p>
+        </div>
+
+        <div class="card">
+            <h3>Tic Tac Toe</h3>
+            <p>Interactive game with win detection.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
